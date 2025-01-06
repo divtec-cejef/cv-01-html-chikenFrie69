@@ -12,6 +12,24 @@ header{
     background-color: #522142;
 }
 
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-list {
+  list-style: none; /* Supprime les puces */
+  display: flex; /* Disposition en ligne */
+  gap: 20px; /* Espacement entre les liens */
+}
+
+.nav-list li a {
+  text-decoration: none; /* Supprime le soulignement */
+  color: white;
+  font-size: 1em;
+  transition: color 0.3s ease; /* Animation pour hover */
+}
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
