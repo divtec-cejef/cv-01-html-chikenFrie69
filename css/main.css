@@ -2,13 +2,22 @@
     box-sizing: border-box;
 }
 
+header{
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    color: #8FFF33;
+    background-color: #522142;
+}
+
 body {
     font-family: Arial, sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 1.4;
-    color: darkblue;
-    background-color: whitesmoke;
+    color: #215235;
+    background-color: #8FFF33;
 }
 
 img {
