@@ -2,10 +2,10 @@
     box-sizing: border-box;
 }
 
-header{
+header {
     font-family: Teko, sans-serif;
     align-items: center; 
-    display: flex
+    display: flex;
     justify-content: space-between;
     padding: 2cm 0; 
     border-top: none;
@@ -24,20 +24,25 @@ header{
     margin-right: 50px;
 }
 
-h1, h2{
+h1, h2 {
     font-family: Anton, sans-serif;
-    texte-shadow: 1px;
+    text-shadow: 1px 1px #000; /* Correction de "texte-shadow" */
 }
 
 body {
-    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0; /* Ajustement pour un alignement parfait */
+    padding: 20px;
     font-family: Arial, sans-serif;
-    text-align: center;
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 1.4;
     color: #215235;
     background-color: #8FFF33;
+    min-height: 100vh; /* Permet d'occuper toute la hauteur */
 }
 
 img {
@@ -56,8 +61,8 @@ a:hover {
     color: pink; 
 }
 
-footer{
-     font-family: Teko, sans-serif;
+footer {
+    font-family: Teko, sans-serif;
     font-weight: 400;
     text-align: center;
     font-size: 1.2rem;
