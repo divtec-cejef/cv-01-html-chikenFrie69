@@ -30,6 +30,7 @@ h1, h2{
 
 body {
     font-family: Arial, sans-serif;
+    display: flex
     text-align: center;
     font-weight: 400;
     font-size: 1.2rem;
@@ -41,7 +42,7 @@ body {
 img {
     max-width: 100%;
     height: auto;
-    width: auto;
+    width: 20px;
     margin: 10px;
 }
 
@@ -51,7 +52,7 @@ a {
 }
 
 a:hover {
-    color: pink;
+    color: pink; 
 }
 
 footer{
