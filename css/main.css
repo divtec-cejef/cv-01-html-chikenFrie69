@@ -26,7 +26,7 @@ header {
 
 h1, h2 {
     font-family: Anton, sans-serif;
-    text-shadow: 1px 1px #000; /* Correction de "texte-shadow" */
+    text-shadow: 10px 10px #000; 
 }
 
 body {
@@ -34,7 +34,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 0; /* Ajustement pour un alignement parfait */
+    margin: 0; 
     padding: 20px;
     font-family: Arial, sans-serif;
     font-weight: 400;
@@ -42,7 +42,6 @@ body {
     line-height: 1.4;
     color: #215235;
     background-color: #8FFF33;
-    min-height: 100vh; /* Permet d'occuper toute la hauteur */
 }
 
 img {
