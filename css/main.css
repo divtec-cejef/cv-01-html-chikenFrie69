@@ -4,7 +4,8 @@
 
 header{
     font-family: Teko, sans-serif;
-     align-items: center; 
+    align-items: center; 
+    display: flex
     justify-content: space-between;
     padding: 2cm 0; 
     border-top: none;
@@ -31,7 +32,6 @@ h1, h2{
 body {
     margin: 100px;
     font-family: Arial, sans-serif;
-    display: flex
     text-align: center;
     font-weight: 400;
     font-size: 1.2rem;
