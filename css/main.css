@@ -11,6 +11,7 @@ header {
     border-top: none;
     font-weight: 400;
     text-align: center;
+    list-style-type: none; 
     font-size: 1.2rem;
     line-height: 1.4;
     color: #8FFF33;
@@ -26,7 +27,7 @@ header {
 
 h1, h2 {
     font-family: Anton, sans-serif;
-    text-shadow: 10px 10px #000; 
+    text-shadow: 5px 5px #215235;
 }
 
 body {
@@ -38,10 +39,11 @@ body {
     padding: 20px;
     font-family: Arial, sans-serif;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     line-height: 1.4;
     color: #215235;
     background-color: #8FFF33;
+    text-align: center;
 }
 
 img {
@@ -49,6 +51,7 @@ img {
     height: auto;
     width: 500px;
     margin: 50px;
+    text-align: center;
 }
 
 a {
