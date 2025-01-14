@@ -31,7 +31,7 @@ header {
 
 h1, h2 {
     font-family: Anton, sans-serif;
-    text-shadow: 5px 5px #215235;
+    text-shadow: 1px 1px #215235;
 }
 
 body {
@@ -53,6 +53,10 @@ body {
 
 p{
     list-style-type: none; 
+    background-color: #ccff99;
+    border-color: #191970;
+    border-width: medium;
+    border-style: solid;
 }
 
 img {
